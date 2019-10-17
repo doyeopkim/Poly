@@ -1,0 +1,84 @@
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.FirstCustomControl.resources
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.MySecondCustmControl.resources
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.Collection.resources
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.UserControl1.resources
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\PaRasoL\Desktop\FastFoodDemo\FastFoodDemo\obj\Debug\FastFoodDemo.Client.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\bin\Debug\FastFoodDemo.exe.config
+C:\Users\PaRasoL\Desktop\BonResto\Client\bin\Debug\FastFoodDemo.exe
+C:\Users\PaRasoL\Desktop\BonResto\Client\bin\Debug\FastFoodDemo.pdb
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.FirstCustomControl.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.Client.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.MySecondCustmControl.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.Collection.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.UserControl1.resources
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.exe
+C:\Users\PaRasoL\Desktop\BonResto\Client\obj\Debug\FastFoodDemo.pdb
+C:\Users\2hans\BonResto\Client\bin\Debug\FastFoodDemo.exe.config
+C:\Users\2hans\BonResto\Client\bin\Debug\FastFoodDemo.exe
+C:\Users\2hans\BonResto\Client\bin\Debug\FastFoodDemo.pdb
+C:\Users\2hans\BonResto\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.FirstCustomControl.resources
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.Client.resources
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.MySecondCustmControl.resources
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.Collection.resources
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.UserControl1.resources
+C:\Users\2hans\BonResto\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\2hans\BonResto\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.exe
+C:\Users\2hans\BonResto\Client\obj\Debug\FastFoodDemo.pdb
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\bin\Debug\FastFoodDemo.exe.config
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\bin\Debug\FastFoodDemo.exe
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\bin\Debug\FastFoodDemo.pdb
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.FirstCustomControl.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.Client.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.MySecondCustmControl.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.Collection.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.UserControl1.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.exe
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\Client\obj\Debug\FastFoodDemo.pdb
+C:\Users\2hans\Desktop\BonResto UI\Client\bin\Debug\FastFoodDemo.exe.config
+C:\Users\2hans\Desktop\BonResto UI\Client\bin\Debug\FastFoodDemo.exe
+C:\Users\2hans\Desktop\BonResto UI\Client\bin\Debug\FastFoodDemo.pdb
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.FirstCustomControl.resources
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.Client.resources
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.MySecondCustmControl.resources
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.Collection.resources
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.UserControl1.resources
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.exe
+C:\Users\2hans\Desktop\BonResto UI\Client\obj\Debug\FastFoodDemo.pdb
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\bin\Debug\FastFoodDemo.exe.config
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\bin\Debug\FastFoodDemo.exe
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\bin\Debug\FastFoodDemo.pdb
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.FirstCustomControl.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.Client.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.MySecondCustmControl.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.Collection.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.UserControl1.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.exe
+C:\Users\PaRasoL\Desktop\BonResto UI2\Client\obj\Debug\FastFoodDemo.pdb
