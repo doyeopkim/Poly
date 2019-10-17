@@ -1,0 +1,64 @@
+[해야 할 것]
+라디오버튼 변경 1 2 3 4 5 6 7 8 9 되있는거 변경
+
+[완료]
+{Admin_Form} // 보유 도서목록[book_register 테이블], 대여중 도서 목록 뜨는거[book_rental 테이블]
+선택된 도서 삭제[book_register 테이블, book_present 테이블], 도서 검색[book_register 테이블]
+{Book_Rental_List_Form} // 도서 검색[book_present 테이블], 도서 예약, 0인 책 도서 알림
+[*다이얼로그]{Change_Member_Info_Form} // 회원 정보 변경
+[*다이얼로그]{Register_Book_Form} // 책 추가[book_register, book_present 테이블에 추가]
+[*다이얼로그]{Register_User_Form} // 회원가입[user_register 테이블]
+{Main_Form} // 로그인 일단 됨
+{My_Book_Rental_List_Form} : 현재일을 기준으로 +2주 연장신청 및 도서 반납
+[*다이얼로그]{Popular5_Form} : 1~5위 값을 매겨서 레이블로 출력
+{Book_Rental_List_Form} // 도서목록 뜸[book_present 테이블]
+[*다이얼로그]{Search_Idpw_Form} // 아이디 비번 찾기 폼[user_register 테이블]
+
+---------------------------------------------------------------
+
+유저_레지스터 테이블
+create table user_register(
+user_name varchar(10),
+user_id varchar(10),
+user_pw varchar(10),
+user_hp varchar(11)
+);
+
+북_렌탈 테이블
+create table book_rental(
+book_name varchar(20),
+book_author varchar(20),
+book_publisher varchar(20),
+book_code varchar(10),
+book_amount varchar(10),
+book_userid varchar(10),
+book_userhp varchar(11),
+book_deadline varchar(20)
+);
+[admin 대여중인 도서 목록, my book rental list]
+---------------------------------------------------------------
+북_레지스터 테이블
+create table book_register(
+book_name varchar(20),
+book_author varchar(20),
+book_publisher varchar(20),
+book_code varchar(10),
+book_categorize varchar(2),
+book_amount int,
+book_pamount int,
+book_info varchar(100),
+book_popular int,
+book_deadline varchar(10)
+);
+[admin, rental]
+---------------------------------------------------------------
+북_리저베이션 테이블
+create table book_reservation(
+book_name varchar(20),
+book_code varchar(10),
+book_userid varchar(10)
+);
+[reservation button]
+---------------------------------------------------------------
+1 사회학 2 과학 3 예술 4 외국어 5 소설
+6 만화 7 컴퓨터 8외국서적
