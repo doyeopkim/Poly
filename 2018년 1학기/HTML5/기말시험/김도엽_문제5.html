@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset = "UTF-8">
+	<title>CSS 스타일 동적 변경</title>
+<script>
+function change() {
+	var span = document.getElementById("test");
+	span.style.color = "purple";
+	span.style.fontSize = "50px";
+	span.style.display = "block";
+	span.style.width = "10em";
+	span.style.border = "3px dotted green";
+	span.style.margin ="30px";
+	}
+</script>
+</head>
+<body>
+<h3>CSS 스타일 동적 변경</h3>
+<hr>
+<p style="color:blue" > 이것은
+	<span id="test" style="color:brown"> CSS스타일 동적 변경! </span>
+</p>
+<input type="button" value="스타일변경" onclick="change ()">
+</body>
+</html>

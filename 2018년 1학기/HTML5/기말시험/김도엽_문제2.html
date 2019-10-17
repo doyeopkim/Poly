@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>문제2</title>
+<script>
+function adder(a, b) {
+	var sum;
+	sum = a + b;
+	return sum;
+}
+
+function sub(a, b) {
+	var sum;
+	sum = a - b;
+	return sum;
+}
+
+function multiple(a, b) {
+	var sum;
+	sum = a * b;
+	return sum;
+}
+
+function adiv(a, b) {
+	var sum;
+	sum = a / b;
+	return sum;
+}
+</script>
+</head>
+<body>
+<h3>4칙연산을 위한 함수 작성</h3>
+<hr>
+<script>
+	var n = adder(50000, 30000);
+	document.write("50000 + 30000는 " + n + "<br>");
+
+	var n = sub(50000, 20000);
+	document.write("50000 - 20000는 " + n + "<br>");
+
+	var n = multiple(50000, 30000);
+	document.write("50000 * 30000는 " + n + "<br>");
+
+	var n = adiv(50000, 20000);
+	document.write("50000 / 20000는 " + n + "<br>");
+</script>
+</body>
+</html>

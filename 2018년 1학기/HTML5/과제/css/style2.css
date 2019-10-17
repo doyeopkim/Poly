@@ -1,0 +1,16 @@
+﻿p {
+	background : #2E2EFE;
+	width : 300px;
+	padding : 20px;
+}
+#round1 { border-radius : 50px }
+
+body {
+	background-color : #F5B8B8;
+	margin-left : 40px;
+	margin-left : 40px;
+}
+h2 {
+	tetxt-align : center;
+	color : dark;
+}

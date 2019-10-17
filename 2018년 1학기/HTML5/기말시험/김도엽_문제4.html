@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>new Object()로 사용자 객체 만들기</title>
+<script>
+
+	function inquiry() { return this.balance;}
+	function deposit(money) { this.balance += money; }
+	function withdraw(money) {
+		this.balance -= money;
+		return money;
+	}
+
+	var account = new Object();
+	account.owner = "만수르";
+	account.code = "10000-10000";
+	account.balance = 15000;
+	account.inquiry = inquiry;
+	account.deposit = deposit;
+	account.withdraw = withdraw;
+</script>
+</head>
+<body>
+<h3>new Object()로 사용자 객체 만들기</h3>
+<hr>
+<script>
+	document.write(" 예금주 ->");
+	document.write(account.owner + ", 계좌번호 ->");
+	document.write(account.code + ", 계좌 잔액 ->");
+	document.write(account.balance + "<br>");
+
+	account.deposit(10000);
+	document.write("10000원 저금 후 잔액은 " + account.inquiry() + "<br>");
+	account.withdraw(5000);
+	document.write("5000원 인출 후 잔액은 " + account.inquiry() + "<br>");
+</script>
+</body>
+</html>

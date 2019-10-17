@@ -1,0 +1,33 @@
+<!DCOTYPE>
+<html>
+<head><title>문제3</title></head>
+
+<h3>블라인드 컬러 시안</h3>
+<hr>
+<form>
+	<fieldset>
+		<legend>블라인드 종류</legend>
+		우드
+		<input type="text" list="wood">
+		<datalist id="wood">
+			<option value="우드">
+			<option value="메탈">
+			<option value="암막">
+			<option value="부직포">
+		</datalist><p>
+		두께
+		<input type="number" min="0.0" max="10.0"
+		step="0.1">
+		컬러
+		<input type="color" value="#FFD700"><p>
+		투명도(0~100):
+		<input type="range" min="0" max="100">
+		<datalist id="toomyeongdo">
+			<option value="0" label="Low">
+			<option value="50" label="Medium">
+			<option value="28" label="High">
+		</datalist>
+	</fieldset>
+</form>
+</body>
+</html>
