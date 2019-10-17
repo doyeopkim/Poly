@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>안녕하세요 (주) reve Soft 입니다.</title>
+	<link rel="stylesheet" type="text/css" href="css/QnA.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".flip").click(function() {
+			$(".panel").slideToggle("slow");
+		});
+	});
+</script>
+
+<style type="text/css">
+div.flip,p.panel {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 5px;
+	text-align: left;
+	font-size:20px;
+	background: #F2F2F2;
+	border: solid 1px #000000;
+}
+ 
+div.panel {
+	width: 100%;
+	height: auto;
+	text-align: left;
+	font-size:15px;
+	display: none;
+	background: #FFFFFF;
+	border: solid 1px #000000;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+
+		<a href="index.html"><img src="images/logo.png" width="194" height="43"></a>
+		<!--<h1>DY company</h2>-->
+			<div id="join">
+				<ul>
+					<li><a href="javascript:;" onclick="window.open('Login.html','name','resizable=no width=465 height=240');return false">로그인</a></li>
+					<li><a href="javascript:;" onclick="window.open('Register.html','name','resizable=no width=465 height=330');return false">회원가입</a></li>
+					<li><a href="javascript:;" onclick="window.open('Find.html','name','resizable=no width=465 height=460');return false">아이디/비밀번호 찾기</a></li>
+				</ul>
+			</div>
+			<div class="iconicmenu">
+				<input type="checkbox" id="togglebox" />
+			<ul>
+				<li><a href="Consult.html">상담컨설팅</a></li>
+				<li><a href="Example.html">고객 사례</a></li>
+				<li><a href="Introduction.html">자사 소개</a></li>
+				<li><a href="bootstrap.html">공지사항</a></li>
+				<li><a href="QnA.html">QnA</a></li>
+			</ul>
+			<label class="toggler" for="togglebox">Menu</label>
+		</div>
+	</div>
+
+
+<div class="flip"><p>Q&A에 대한 설명입니다.</p>
+		<p>자세한 내용을 보시려면 클릭해주세요.</p></div>
+<div class="panel"><p>고객분들께서 자주 물어보신 질문에 대한 답이 준비되어있습니다.</p>
+<p>Q&A로도 해결되지 않는 질문이 있으실 때 고객센터로 전화주신다면 친절히 답해드리겠습니다.</p></div>
+
+<h4>ㆍ자주 궁금해하신 질문들과 그에 대한 답변입니다.</h4><hr>
+<details>
+	<summary>Q) 비용은 얼마나 드나요?</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 정확한 금액은 상담 후에 안내해 드립니다. 기본적으로 프로젝트의 길이와 페이지 수에 따라 결정됩니다.</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 왜 사이트마다 금액이 다른가요?</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 업체마다 가격 책정 기준이 다르기 때문입니다.</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 유지보수가 어째서 필요한가요?</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 제작에 쓰인 JQuary, Bootstrap 등이 업데이트로 인해 기존에 쓰던 기능이 뒤바뀌거나 없어질 수 있고, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이로 인해 처음에 기획한대로 작동하지 않을 가능성이 있기 때문입니다.</p>
+</details>
+<hr>
+<details>
+	<summary>Q) 유지보수 비용은 얼마나 드나요?</summary>
+	<hr>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;A) 정확한 금액은 상담 후에 안내해 드립니다. 기본적으로는 매달마다 제작비용의 20% ~ 30% 가량입니다.</p>
+</details>
+<hr>
+<br><br><br><br><br><br><br>
+
+	<div id="footer">
+		<img src="images/footer.jpg">
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>안녕하세요 (주) reve Soft 입니다.</title>
+	<link rel="stylesheet" type="text/css" href="css/Consult.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script type ="text/javascript">
+	$("button").click(function() {
+    location.reload();
+});
+</script>
+<script type="text/javascript">
+	window.onload = function() {
+		var button = document.getElementById("button"); // header 객체에 onclick 이벤트 속성을 연결
+		button.onclick = function() { alert('신청이 완료되었 습니다.'); // 이벤트를 제거, 한번만 실행이 됨 header.onclick = null;
+	}
+};
+</script>
+</head>
+<body>
+		<div id="header">
+            <a href="index.html"><img src="images/logo.png" width="194" height="43"></a>
+			<div id="join">
+				<ul>
+					<li><a href="javascript:;" onclick="window.open('Login.html','name','resizable=no width=465 height=240');return false">로그인</a></li>
+					<li><a href="javascript:;" onclick="window.open('Register.html','name','resizable=no width=465 height=330');return false">회원가입</a></li>
+					<li><a href="javascript:;" onclick="window.open('Find.html','name','resizable=no width=465 height=460');return false">아이디/비밀번호 찾기</a></li>
+				</ul>
+			</div>
+			<div class="iconicmenu">
+				<input type="checkbox" id="togglebox" />
+			<ul>
+				<li><a href="Consult.html">상담컨설팅</a></li>
+				<li><a href="Example.html">고객 사례</a></li>
+				<li><a href="introduction.html">자사 소개</a></li>
+				<li><a href="Notice.html">공지사항</a></li>
+				<li><a href="QnA.html">QnA</a></li>
+			</ul>
+				<label class="toggler" for="togglebox">Menu</label>
+			</div>
+		</div>
+	<div class="formcon">
+		<h2 style="margin-top: 10px; margin-left: 50px; color: #585858">상세견적신청</h1>
+		<form>
+			<div id="inputbox">
+				<input type="text" style=" width: 99%;" placeholder="  회사명(*)"><br>
+				
+				<input type="text" class="two" style="margin-right: 16px; float: left;" placeholder="  담당자(*)">
+				<input type="text" class="two" placeholder="  직책/직위"><br>
+				
+				<input type="text" class="tel" style="margin-right: 2px; float: left;" maxlength="4" placeholder="  연락처(*)"><i>-</i>
+				<input type="text" class="tel" style="margin-right: 2px;" maxlength="4"><i>-</i>
+				<input type="text" class="tel" maxlength="4"><br>
+				
+				<input type="text" style="width: 99%;" placeholder="  이메일(*)"><br>
+				
+				<input type="text" style="width: 99%;" placeholder="  기존 홈페이지가 있다면 사이트 주소를 입력해 주세요.(*)"><br>
+				
+				<input type="text" style="width: 99%;" placeholder="  참고 홈페이지가 있다면 입력해주세요.(*)"><br>
+				
+				<input type="text" style="width: 99%;" placeholder="  참고 홈페이지가 있다면 입력해주세요.(*)"><br>
+				
+				<input type="text" style="width: 99%;" placeholder="  참고 홈페이지가 있다면 입력해주세요.(*)"><br>
+			</div>
+			<div id="textarea">
+				<textarea placeholder="내용을 입력해주세요."></textarea>
+			</div>
+			<div class="button">
+				<span id="button"><input type="submit" value="견적보내기"></span>
+			</div>
+		</form>
+	</div>
+	<br><br><br><br><br><br><br><br>
+	<div id="footer">
+		<img src="images/footer.jpg">
+	</div>
+</body>
+</html>

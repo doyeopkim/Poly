@@ -1,0 +1,208 @@
+Introduction.css
+html,body { margin: 0; padding: 0; width: 100%; height: 100%; background: #FAFAFA; }
+body { position: relative; }
+/*section { width: 100%; height: 85%; }*/
+
+#join { background: #2E2E2E; text-align: right;}
+#join ul { margin: 0; padding: 0; margin-right: 20px;}
+#join ul li { display: inline-block; list-style-type: none; padding: 10px 10px; }
+#join ul li a { color: white; text-decoration: none; font: 12px Verdana; }
+#join ul li a:hover { color: #A9F5F2; }
+
+#menu { background: #2E2E2E; text-align: right;}
+#menu ul { margin: 0; padding: 0; }
+#menu ul li { display: inline-block; list-style-type: none; padding: 10px 50px; }
+#menu ul li a { color: white; text-decoration: none; }
+#menu ul li a:hover { color: #A9F5F2; }
+
+body {  /* webkit adjacent sibling bug fix */
+    -webkit-animation: bugfix infinite 1s; 
+}
+
+@-webkit-keyframes bugfix { 
+    from {padding:0;} 
+    to {padding:0;} 
+}
+
+.iconicmenu {
+    position: relative;
+    height: 45px; /*메뉴바 영역 크기, 없어도 된다?*/
+    overflow: hidden;/*이걸 없애면 메뉴가 안나타날때 오른쪽으로 창 영역이 늘어남*/
+    background-color: #2E2E2E;
+    } /*메뉴바가 나타나는 영역*/
+
+.iconicmenu, .iconicmenu * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+.iconicmenu input[type="checkbox"] { /* checkbox used to toggle menu state */
+    position: absolute;/*relative로 하면 메뉴바가 나타날시 아래로 내려가서 안보임*/
+    left: 0;
+    top: 0;
+    opacity: 0;
+    }
+
+.iconicmenu > label { /*메뉴바 아이콘 Main label icon to toggle menu state */
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    float: right;/*메뉴바 아이콘 위치조정*/
+    top: 0;
+    left: 0;
+    background: #2E2E2E;
+    text-indent: -1000000px;
+    border: 6px solid white; /* border color */
+    border-width: 6px 0;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; /* transition for flipping label */
+    } /*메뉴바 아이콘*/
+
+.iconicmenu > label::after { /* 메뉴 아이콘 안의 줄무늬 inner stripes inside label */
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 19%;
+    right: 0;
+    border: 6px solid white; /* border color */
+    border-width: 6px 0;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; /* transition for flipping label */
+    }
+
+.iconicmenu ul { /* 메뉴바 영역 UL menu inside container */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-right: 40px;
+    background: #2E2E2E;
+    right: -35%; /* hide menu intially */
+    height: 40px; /* height of menu */
+    font: bold 14px Verdana;
+    text-align: center;
+    list-style: none;
+    opacity: 0;
+    -moz-perspective: 10000px;
+    perspective: 10000px;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; /* transition for animating UL in and out */
+    }
+
+.iconicmenu li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    }
+
+.iconicmenu ul label { /* label button inside UL to close menu */
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    }
+
+.iconicmenu input[type="checkbox"]:checked ~ label, .iconicmenu ul label:hover::after {
+    -moz-transform: rotatey(180deg);
+    -ms-transform: rotatey(180deg);
+    -webkit-transform: rotatey(180deg);
+    transform: rotatey(180deg); /* flip labels vertically onMouseover */ 
+    }
+
+.iconicmenu > label:hover, .iconicmenu > label:hover::after, .iconicmenu input[type="checkbox"]:checked ~ label, .iconicmenu input[type="checkbox"]:checked ~ label::after {
+    border-color: darkred; /* highlight color of main menu label onMouseover */
+    }
+
+.iconicmenu input[type="checkbox"]:checked ~ ul { /*버튼으로부터 메뉴바 나오는 위치*/
+    right: 8px; /* Animate menu into view */
+    opacity: 1;
+    }
+
+.iconicmenu li a {
+    display: block;
+    float: left; /*메뉴바 항목 표시 순서(왼쪽부터 출력)*/
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    padding-right: 15px;
+    height: 100%;
+    } /*메뉴바에 적힌 항목*/
+
+.iconicmenu li a:hover {
+    background: darkred;
+    color: white;
+    }/*메뉴바에 가져다 댈 시 변경되는 메뉴바의 배경색, 글씨색*/
+
+/* ----------------------------- CSS Media Queries ----------------------------- */
+
+/*
+These rules control which portions of the menu gets shown when the screen size is below a certain width.
+By default 2 stages are defined depending on browser screen width.
+*/
+
+@media screen and (max-width: 580px) { /* Hide toggle icon when menu is already open (increases usable menu space by 40px) */
+    .iconicmenu input[type="checkbox"]:checked ~ label {
+        display: block;
+        }
+    .iconicmenu input[type="checkbox"]:checked ~ ul {
+        margin-right: -7px;
+        }
+    }
+ 
+@media screen and (max-width: 560px) { /* Convert horizontal menu to vertical drop down instead (friendly across all screen sizes) */
+    .iconicmenu {
+        overflow: visible;
+        z-index: 1000;
+        }
+    .iconicmenu ul {
+        height: auto;
+        width: 100%;
+        }
+    .iconicmenu ul li {
+        min-width: 200px;
+        display: block;
+        }
+    .iconicmenu ul li a {
+        float: none;
+        text-align: center;
+        }
+    }
+
+#header { position: relative; top: 0; left: 0; width: 100%; background-color: #2E2E2E; }
+#header img { position: relative; margin-left: 40px; margin-top: 20px; float: left; }
+/*#header h1 { color: white; position: absolute; margin-left: 40px; margin-top: 20px; float: left;}*/
+
+.image{ position: relative; width: 100%; }
+.image .content{ position: absolute; top:80%; left:50%; transform: translate(-50%, -50%); font-size:30px; color: white; z-index: 2; text-align: center; }
+
+#section { position: relative; width: 100%; }
+#section table tr td { line-height: 0; overflow: hidden;}
+#section table tr td img { max-width: 100%; height: auto;
+	-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s; }
+
+#section table tr td:hover img {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2); }
+
+#footer { position: relative; bottom: 0; left: 0; width: 100%; background : #585858; text-align: center; margin: 0px auto;}
+#footer img { width: 100%; margin-bottom: -8px; }

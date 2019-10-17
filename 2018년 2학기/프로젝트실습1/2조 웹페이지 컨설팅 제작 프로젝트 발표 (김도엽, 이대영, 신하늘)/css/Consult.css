@@ -1,0 +1,206 @@
+mystyle.css
+html,body { margin: 0; padding: 0; width: 100%; height: 100%; background: #FAFAFA; }
+body { position: relative; -webkit-animation: bugfix infinite 1s; background-color: #2E2E2E/* webkit adjacent sibling bug fix */}
+/*section { width: 100%; height: 85%; }*/
+
+#header { position: relative; top: 0; left: 0; width: 100%; background-color: #2E2E2E; border-bottom: solid 2px #a4a4a4;}
+#header img { position: relative; margin-left: 40px; margin-top: 20px; float: left;}
+
+#join { background: #2E2E2E; text-align: right;}
+#join ul { margin: 0; padding: 0; margin-right: 20px;}
+#join ul li { display: inline-block; list-style-type: none; padding: 10px 10px; }
+#join ul li a { color: white; text-decoration: none; font: 12px Verdana; }
+#join ul li a:hover { color: #A9F5F2; }
+
+@-webkit-keyframes bugfix { 
+    from {padding:0;} 
+    to {padding:0;} 
+}
+
+.iconicmenu {
+    position: relative;
+    height: 45px; /*메뉴바 영역 크기, 없어도 된다?*/
+    overflow: hidden;/*이걸 없애면 메뉴가 안나타날때 오른쪽으로 창 영역이 늘어남*/
+    background-color: #2E2E2E;
+    } /*메뉴바가 나타나는 영역*/
+
+.iconicmenu, .iconicmenu * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+.iconicmenu input[type="checkbox"] { /* checkbox used to toggle menu state */
+    position: absolute;/*relative로 하면 메뉴바가 나타날시 아래로 내려가서 안보임*/
+    left: 0;
+    top: 0;
+    opacity: 0;
+    }
+
+.iconicmenu > label { /*메뉴바 아이콘 Main label icon to toggle menu state */
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    float: right;/*메뉴바 아이콘 위치조정*/
+    top: 0;
+    left: 0;
+    background: #2E2E2E;
+    text-indent: -1000000px;
+    border: 6px solid white; /* border color */
+    border-width: 6px 0;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; /* transition for flipping label */
+    } /*메뉴바 아이콘*/
+
+.iconicmenu > label::after { /* 메뉴 아이콘 안의 줄무늬 inner stripes inside label */
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 19%;
+    right: 0;
+    border: 6px solid white; /* border color */
+    border-width: 6px 0;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; /* transition for flipping label */
+    }
+
+.iconicmenu ul { /* 메뉴바 영역 UL menu inside container */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-right: 40px;
+    background: rgba(46, 46, 46, 0.9);
+    right: -35%; /* hide menu intially */
+    height: 40px; /* height of menu */
+    font: bold 14px Verdana;
+    text-align: center;
+    list-style: none;
+    opacity: 0;
+    -moz-perspective: 10000px;
+    perspective: 10000px;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; /* transition for animating UL in and out */
+    }
+
+.iconicmenu li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    }
+
+.iconicmenu ul label { /* label button inside UL to close menu */
+    cursor: pointer;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    }
+
+.iconicmenu input[type="checkbox"]:checked ~ label, .iconicmenu ul label:hover::after {
+    -moz-transform: rotatey(180deg);
+    -ms-transform: rotatey(180deg);
+    -webkit-transform: rotatey(180deg);
+    transform: rotatey(180deg); /* flip labels vertically onMouseover */ 
+    }
+
+.iconicmenu > label:hover, .iconicmenu > label:hover::after, .iconicmenu input[type="checkbox"]:checked ~ label, .iconicmenu input[type="checkbox"]:checked ~ label::after {
+    border-color: darkred; /* highlight color of main menu label onMouseover */
+    }
+
+.iconicmenu input[type="checkbox"]:checked ~ ul { /*버튼으로부터 메뉴바 나오는 위치*/
+    right: 8px; /* Animate menu into view */
+    opacity: 1;
+    }
+
+.iconicmenu li a {
+    display: block;
+    float: left; /*메뉴바 항목 표시 순서(왼쪽부터 출력)*/
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    padding-right: 15px;
+    height: 100%;
+    } /*메뉴바에 적힌 항목*/
+
+.iconicmenu li a:hover {
+    background: darkred;
+    color: white;
+    }/*메뉴바에 가져다 댈 시 변경되는 메뉴바의 배경색, 글씨색*/
+
+/*화면 가로 길이에 따라 메뉴바의 형태 변경*/
+@media screen and (max-width: 580px) { /* Hide toggle icon when menu is already open (increases usable menu space by 40px) */
+    .iconicmenu input[type="checkbox"]:checked ~ label {
+        display: block;
+        }
+    .iconicmenu input[type="checkbox"]:checked ~ ul {
+        margin-right: -7px;
+        /*margin-top: 40px; 헤더영역 밑에서부터 메뉴 출력하고 싶을때. 대신 대각선에서 메뉴바가 나오는것처럼 보임*/
+        }
+    }
+ 
+@media screen and (max-width: 560px) { /* Convert horizontal menu to vertical drop down instead (friendly across all screen sizes) */
+    .iconicmenu {
+        overflow: visible;
+        z-index: 1000;
+        }
+    .iconicmenu ul {
+        height: auto;
+        width: 100%;
+        }
+    .iconicmenu ul li {
+        min-width: 200px;
+        display: block;
+        }
+    .iconicmenu ul li a {
+        float: none;
+        text-align: center;
+        }
+    }
+
+.formcon { position: relative; width: 100%; height: 100%; overflow: hidden; background-color: #2E2E2E; }
+.formcon input[type="text"] { font-size: 16px; background-color: #424242; color: #AAA; height: 50px; margin-bottom: 10px; 
+border-radius: 10px; border-style: solid; border-color: #666; border-width: 1px; }
+#inputbox { width: 40%; height: 100%; padding-left: 55px; position: relative; float: left; }
+
+@media screen and (max-width: 600px) {
+    #inputbox { width: 80%; }
+    #textarea { width: 80%; }
+}
+
+
+
+.two { width: 48%; }
+@media screen and (max-width: 1300px) {
+.two { width: 99%; float: none; }
+}
+
+.tel { width: 31%; }
+@media screen and (max-width: 1290px) {
+.tel { width: 30%; float: none; }
+}
+
+#textarea { width:45%; height: 400px; margin-bottom: 5px; padding-left: 55px; position: relative; float: left;}
+.formcon textarea { width: 100%; height: 100%; font-size: 16px; background-color: #424242; color: #AAA; margin-bottom: 10px; 
+border-radius: 10px; border-style: solid; border-color: #666; border-width: 1px; padding: 10px; }
+
+.button { width: 45%; padding-left: 55px; padding-top: 40px; position: relative; float: left; }
+.button input[type="submit"] { font-size: 16px; font-weight: 600; color: white; background-color: #0174DF;
+    border-radius: 5px; border-style: solid; border-color: #0174DF; border-width: 1px;
+    width: 150px; height: 50px; float: right; margin-right: 30px;}
+.button input[type="reset"] { font-size: 16px; font-weight: 600; color: white; background-color: #0174DF;
+    border-radius: 5px; border-style: solid; border-color: #0174DF; border-width: 1px;
+    width: 150px; height: 50px; float: right; }
+
+input::placeholder { color: #848484; }
+textarea::placeholder { color: #848484; }
+
+
+#footer { position: relative; bottom: 0; left: 0; width: 100%; background : #585858; text-align: center; margin: 0px auto;}
+#footer img { width: 100%; margin-bottom: -8px; }

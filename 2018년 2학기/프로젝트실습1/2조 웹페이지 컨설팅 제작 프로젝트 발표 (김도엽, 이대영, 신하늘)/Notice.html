@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+    <title>안녕하세요 (주) reve Soft 입니다.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <style>
+    body {
+    background-color: white;        
+    }
+    .iconicmenu > label.label {/*메뉴바 아이콘 Main label icon to toggle menu state */
+    display: block ;
+    position: relative ;
+    width: 40px ;
+    height: 40px ;
+    float: right ;/*메뉴바 아이콘 위치조정*/
+    top: 0 ;
+    left: 0 ;
+    background: #2E2E2E ;
+    text-indent: -1000000px ;
+    border: 6px solid white ; /* border color */
+    border-width: 6px 0 ;
+    cursor: pointer ;
+    -moz-transition: all 0.3s ease-in ;
+    -webkit-transition: all 0.3s ease-in ;
+    transition: all 0.3s ease-in ; /* transition for flipping label */
+    } /*메뉴바 아이콘*/
+
+    .iconicmenu > label::after.label::after{ /* 메뉴 아이콘 안의 줄무늬 inner stripes inside label */
+    content: "" ;
+    display: block ;
+    position: absolute ;
+    width: 100% ;
+    height: 18% ;
+    top: 19% ;
+    right: 0 ;
+    border: 6px solid white ; /* border color */
+    border-width: 6px 0 ;
+    -moz-transition: all 0.3s ease-in ;
+    -webkit-transition: all 0.3s ease-in ;
+    transition: all 0.3s ease-in ; /* transition for flipping label */
+    }
+
+    </style>
+    </head>
+<body>
+    <script>
+        function btn_click()
+        {
+            alert("관리자만 접근할 수 있습니다.");
+        }
+    </script>
+        <div id="header">
+            <a href="index.html"><img src="images/logo.png" width="194" height="43"></a>
+            <div id="join">
+                <ul>
+                    <li><a href="javascript:;" onclick="window.open('Login.html','name','resizable=no width=465 height=240');return false">로그인</a></li>
+                    <li><a href="javascript:;" onclick="window.open('Register.html','name','resizable=no width=465 height=330');return false">회원가입</a></li>
+                    <li><a href="javascript:;" onclick="window.open('Find.html','name','resizable=no width=465 height=460');return false">아이디/비밀번호 찾기</a></li>
+                </ul>
+            </div>
+            <div class="iconicmenu">
+                <input type="checkbox" id="togglebox" />
+            <ul>
+                <li><a href="Consult.html">상담컨설팅</a></li>
+                <li><a href="Example.html">고객 사례</a></li>
+                <li><a href="introduction.html">자사 소개</a></li>
+                <li><a href="Notice.html">공지사항</a></li>
+                <li><a href="QnA.html">QnA</a></li>
+            </ul>
+                <label class="toggler" for="togglebox">Menu</label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+<div class = "container">
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>날짜</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>공지사항 게시판 입니다.</td>
+            <td>Admin</td>
+            <td>2018.11.26</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>공지사항 외의 다른 용도로 사용될 경우 무통보 삭제 될 수 있습니다.</td>
+            <td>Admin</td>
+            <td>2018.11.26</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>건강한 글쓰기 문화를 만들어 나갑시다.</td>
+            <td>Admin</td>
+            <td>2018.11.26</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>상담 사항이 있으시면 다음 e-mail로 연락해주세요.</td>
+            <td>Admin</td>
+            <td>2018.11.29</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Johndoe18@revesoft.co.kr</td>
+            <td>Admin</td>
+            <td>2018.11.29</td>
+        </tr>
+    </tbody>
+</table>
+<hr/>
+<a class = "btn btn-default pull-right" id = "btn" onclick = "btn_click();">글쓰기</a>
+<a class = "btn btn-default pull-right" id = "btn" onclick = "btn_click();">수정</a>
+<div class="text-center">
+        <ul class = "pagination">
+            <li><a href = "#">1</a></li>
+        </ul>
+    </div>
+</div>
+   <br><br><br><br><br><br><br>
+    <div id="footer">
+        <img src="images/footer.jpg">
+    </div>
+</body>
+</html>
