@@ -1,0 +1,11 @@
+C:\Users\PaRasoL\source\repos\Kimdoyeop\bin\Debug\Kimdoyeop.exe.config
+C:\Users\PaRasoL\source\repos\Kimdoyeop\bin\Debug\Kimdoyeop.exe
+C:\Users\PaRasoL\source\repos\Kimdoyeop\bin\Debug\Kimdoyeop.pdb
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.csprojAssemblyReference.cache
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.Form1.resources
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.Properties.Resources.resources
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.csproj.GenerateResource.cache
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.exe
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.pdb
+C:\Users\PaRasoL\source\repos\Kimdoyeop\obj\Debug\Kimdoyeop.Form2.resources
