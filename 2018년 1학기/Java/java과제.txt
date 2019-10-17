@@ -1,0 +1,68 @@
+package P_161;
+
+import java.util.Scanner;
+
+public class hw_165 {
+
+	public static void main(String[] args) {
+		final int size = 21;
+		int[] seats = new int[size];
+		int count1 = 0, sum = 21;
+		
+		while(true) {
+			System.out.println("--------------------------------------------------");
+			System.out.print("       ");
+			for (int i = 1; i <= 5; i++)
+				System.out.print(" a" + i + "      ");
+			System.out.println(" ");
+			
+			System.out.print("     ");
+			for (int i = 1; i <= 7; i++)
+				System.out.print("b" + i + "     ");
+			System.out.print("\t" +"\n ");
+			
+			System.out.print(" ");
+			for (int i = 1; i <= 9; i++)
+				System.out.print("c" + i + "    ");
+			
+				System.out.println("\n--------------------------------------------------");
+				
+				System.out.print("       ");
+			for (int i = 0; i < 5; i++)
+				System.out.print("  " + seats[i] + "      ");
+			System.out.println(" ");
+			
+			System.out.print("   ");
+			for (int i = 5; i < 12; i++)
+				System.out.print("   " + seats[i] + "   ");
+			System.out.println(" ");
+			
+			System.out.print(" ");
+			for (int i = 12; i < 21; i++)
+				System.out.print(" " + seats[i] + "    ");
+			System.out.println("\n--------------------------------------------------");
+			
+			System.out.print("원하시는 좌석번호를 입력하세요(종료는 -1, 좌석확인은 -2): ");
+			Scanner scan = new Scanner(System.in);
+			int s = scan.nextInt();
+			if (s == -1){
+				break;
+			}
+			if ( s == -2) {
+				System.out.println("[예약석 : " + count1 + "빈좌석 : " + sum + "]");	
+				continue;
+		}
+			
+			
+			if (seats[s-1] == 0) {
+				seats[s-1] = 1;
+				count1++;
+				sum = 21-count1;
+				System.out.println("예약되었습니다.");
+			}
+			else {
+				System.out.println("이미 예약된 자리입니다.");
+			}
+		}
+}
+}
