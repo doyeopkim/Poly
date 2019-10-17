@@ -1,0 +1,72 @@
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\bin\Debug\BonResto.exe.config
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\bin\Debug\BonResto.exe
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\bin\Debug\BonResto.pdb
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\BonResto.Properties.Resources.resources
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\BonResto.exe
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\BonResto.pdb
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\BonResto.AddMenu.resources
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\BonResto.EditMenu.resources
+C:\Users\scarypaw\source\repos\BonResto\BonResto\BonResto\obj\Debug\BonResto.Server.resources
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\bin\Debug\BonResto.exe.config
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\bin\Debug\BonResto.exe
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\bin\Debug\BonResto.pdb
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\BonResto.AddMenu.resources
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\BonResto.EditMenu.resources
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\BonResto.Properties.Resources.resources
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\BonResto.Server.resources
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\BonResto.exe
+C:\Users\PaRasoL\Desktop\BonResto\BonResto\obj\Debug\BonResto.pdb
+C:\Users\2hans\BonResto\BonResto\bin\Debug\BonResto.exe.config
+C:\Users\2hans\BonResto\BonResto\bin\Debug\BonResto.exe
+C:\Users\2hans\BonResto\BonResto\bin\Debug\BonResto.pdb
+C:\Users\2hans\BonResto\BonResto\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\2hans\BonResto\BonResto\obj\Debug\BonResto.AddMenu.resources
+C:\Users\2hans\BonResto\BonResto\obj\Debug\BonResto.EditMenu.resources
+C:\Users\2hans\BonResto\BonResto\obj\Debug\BonResto.Properties.Resources.resources
+C:\Users\2hans\BonResto\BonResto\obj\Debug\BonResto.Server.resources
+C:\Users\2hans\BonResto\BonResto\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\2hans\BonResto\BonResto\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\2hans\BonResto\BonResto\obj\Debug\BonResto.exe
+C:\Users\2hans\BonResto\BonResto\obj\Debug\BonResto.pdb
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\bin\Debug\BonResto.exe.config
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\bin\Debug\BonResto.exe
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\bin\Debug\BonResto.pdb
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\BonResto.AddMenu.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\BonResto.EditMenu.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\BonResto.Properties.Resources.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\BonResto.Server.resources
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\BonResto.exe
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\BonResto.pdb
+C:\Users\vnq12\Documents\카카오톡 받은 파일\BonResto 서버작업\BonResto\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\bin\Debug\BonResto.exe.config
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\bin\Debug\BonResto.exe
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\bin\Debug\BonResto.pdb
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\BonResto.AddMenu.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\BonResto.EditMenu.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\BonResto.Properties.Resources.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\BonResto.Server.resources
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\BonResto.exe
+C:\Users\PaRasoL\Desktop\BonResto UI2\BonResto\obj\Debug\BonResto.pdb
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\bin\Debug\BonResto.exe.config
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\bin\Debug\BonResto.exe
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\bin\Debug\BonResto.pdb
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\BonResto.AddMenu.resources
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\BonResto.EditMenu.resources
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\BonResto.Properties.Resources.resources
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\BonResto.Server.resources
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\BonResto.exe
+C:\Users\PaRasoL\Desktop\1번 테이블 겸 서버\BonResto\obj\Debug\BonResto.pdb
